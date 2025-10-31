@@ -14,7 +14,6 @@ export default function App() {
         <a
           href="https://erp2025-1.udesc-ceplan.com.br/"
           className="card"
-          target="_blank"
           rel="noopener noreferrer"
         >
           <div className="card-header">
