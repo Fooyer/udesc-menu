@@ -65,7 +65,7 @@ export default function App() {
         <p>
           <strong>UDESC</strong> - Universidade do Estado de Santa Catarina
         </p>
-        <p>CEPLAN - Centro de Educação Superior do Planalto Norte</p>
+        <p>CEPLAN - Centro de Educação do Planalto Norte</p>
       </footer>
     </div>
   );
