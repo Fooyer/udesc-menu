@@ -44,20 +44,37 @@ export default function App() {
           </div>
         </a>
 
-        <div className="card disabled">
+        <a
+          href="https://ri2025-2.udesc-ceplan.com.br/"
+          className="card"
+          rel="noopener noreferrer"
+        >
           <div className="card-header">
             <div className="card-number">02</div>
-            <span className="status pending">Em breve</span>
+            <span className="status active">Disponível</span>
           </div>
-          <h2 className="card-title">RIN 2025-2</h2>
+          <h2 className="card-title">RI 2025-2</h2>
           <p className="card-description">
             Próximo projeto dos alunos da UDESC CEPLAN. Aguarde novidades em
             breve!
           </p>
           <div className="card-footer">
-            <span>Em desenvolvimento</span>
+            <span>Acessar projeto</span>
+            <svg
+              className="arrow"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M17 8l4 4m0 0l-4 4m4-4H3"
+              />
+            </svg>
           </div>
-        </div>
+        </a>
       </div>
 
       <footer>
